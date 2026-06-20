@@ -107,14 +107,12 @@
   <text x="30" y="252" class="mono" font-size="9" fill="#8B949E" letter-spacing="2">SERVICES</text>
 
   <g class="mono" font-size="10">
-    <text x="30" y="274" fill="#3FB950" filter="url(#glowGreen)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.167;0.183;0.944;1" dur="36s" repeatCount="indefinite"/>✓ Java Runtime Loaded</text>
-    <text x="30" y="292" fill="#3FB950" filter="url(#glowGreen)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.194;0.211;0.944;1" dur="36s" repeatCount="indefinite"/>✓ Spring Boot Services Running</text>
-    <text x="30" y="310" fill="#3FB950" filter="url(#glowGreen)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.222;0.239;0.944;1" dur="36s" repeatCount="indefinite"/>✓ PostgreSQL Connected</text>
-    <text x="310" y="274" fill="#3FB950" filter="url(#glowGreen)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.250;0.267;0.944;1" dur="36s" repeatCount="indefinite"/>✓ Docker Containers Healthy</text>
-    <text x="310" y="292" fill="#3FB950" filter="url(#glowGreen)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.278;0.294;0.944;1" dur="36s" repeatCount="indefinite"/>✓ Machine Learning Modules Loaded</text>
+    <text x="30" y="274" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.167;0.183;0.944;1" dur="36s" repeatCount="indefinite"/><tspan fill="#3FB950" filter="url(#glowGreen)">[■] </tspan><tspan fill="#E6EDF3" font-weight="600">SnapFix</tspan></text>
+    <text x="30" y="296" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.194;0.211;0.944;1" dur="36s" repeatCount="indefinite"/><tspan fill="#3FB950" filter="url(#glowGreen)">[■] </tspan><tspan fill="#E6EDF3" font-weight="600">Smart Water Dispenser</tspan></text>
+    <text x="30" y="318" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.222;0.239;0.944;1" dur="36s" repeatCount="indefinite"/><tspan fill="#3FB950" filter="url(#glowGreen)">[■] </tspan><tspan fill="#E6EDF3" font-weight="600">Coastal ML Platform</tspan></text>
 
     <!-- Auth -->
-    <g transform="translate(30,318)" clip-path="url(#twAuth)">
+    <g transform="translate(30,332)" clip-path="url(#twAuth)">
       <text y="12" class="mono" font-size="11" fill="#58A6FF" filter="url(#glowSubtle)">&gt; authenticate --user</text>
     </g>
     <text x="30" y="348" class="mono" font-size="11" fill="#3FB950" font-weight="600" filter="url(#glowGreen)" opacity="0">
@@ -122,7 +120,7 @@
       Access Granted
     </text>
     <!-- current_status -->
-    <g transform="translate(30,362)" clip-path="url(#twStatus)">
+    <g transform="translate(30,356)" clip-path="url(#twStatus)">
       <text y="12" class="mono" font-size="11" fill="#58A6FF" filter="url(#glowSubtle)">&gt; current_status</text>
     </g>
     <text x="30" y="388" class="mono" font-size="10" fill="#E6EDF3" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.472;0.486;0.944;1" dur="36s" repeatCount="indefinite"/>Building scalable systems</text>

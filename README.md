@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg?v=7" width="100%" alt="HEMANTH OS v2.0" />
+<img src="./banner.svg?v=8" width="100%" alt="HEMANTH OS v2.0" />
 
 </div>
 
